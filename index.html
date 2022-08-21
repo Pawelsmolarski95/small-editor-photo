@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="editor">
+            <div class="filter">
+                <div class="blur">
+                    <label for="blur">Blur</label>
+                    <input type="range" name="blur" min="0" max="20" value="1" data-sizing="px" id="blur">
+                </div>
+                <div class="brightness">    
+                    <label for="brightness">Brightness</label>
+                    <input type="range" name="brightness" min="0" max="4" value="1" data-sizing=" " id="brightnees">
+                </div>
+                <div class="contrast">
+                    <label for="contrast">Contrast</label>
+                    <input type="range" name="contrast" min="0" max="4" value="1" data-sizing=" " id="contrast">
+                </div>
+                <div class="grayscale">
+                    <label for="range">Grayscale</label>
+                    <input type="range" name="grayscale" min="0" max="" value="0" data-sizing=" " step="0.01" id="garyscale">
+                </div>
+
+            </div>
+            <div class="photo">
+                <div class="results">
+                    <figure class="image-container">
+                        <img id="chosen-img" src="https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?cs=srgb&dl=pexels-kaique-rocha-775201.jpg&fm=jpg">
+                    </figure>
+                    <input type="file" id="upload-button" accept="Image/*">
+                    <label for="upload-button">Choose an image</label>
+                </div>
+            </div>
+        </div>    
+        
+    </div>
+
+
+
+,<script src="/js/script.js"></script>    
+</body>
+</html>
